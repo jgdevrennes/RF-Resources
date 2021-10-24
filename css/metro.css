@@ -3,11 +3,15 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 html,
 body,
 * {
   box-sizing: border-box;
+}
+header {
+  width: 100%;
 }
 article,
 aside,
@@ -13506,7 +13510,7 @@ input[type="submit"].link:active {
   /* margin-left: 80px; */
   margin: 10px auto ;
   min-width: 80px;
-  width: auto;
+  width: 50%;
   height: auto;
   /* float: left; */
   display: block;
@@ -13535,9 +13539,9 @@ input[type="submit"].link:active {
 .tile-group.six {
   width: 960px;
 }
-.tile-group.seven {
+/* .tile-group.seven {
   width: 1120px;
-}
+} */
 .tile-group .tile-group-title {
   /* color: #ffffff; */
   font-size: 20px;
@@ -13553,7 +13557,7 @@ input[type="submit"].link:active {
   width: 100%;
   height: auto;
   display: block;
-  margin: 14px;
+  margin: 18px;
   padding: 0;
   background-color: #fff;
 }
@@ -13567,7 +13571,7 @@ input[type="submit"].link:active {
 }
 .tile {
   width: 150px;
-  height: 180px;
+  height: 150px;
   display: block;
   float: left;
   margin: 15px;
@@ -13752,6 +13756,8 @@ input[type="submit"].link:active {
 .tile-color{
   color: #000;
   font-size: 14px;
+  /* font-weight: bolder; */
+  background-color: #fff;
 }
 .strong-tile-color{
   color: #000;
@@ -13901,7 +13907,7 @@ input[type="submit"].link:active {
   display: block;
   float: left;
   margin: 5px;
-  background-color: #eeeeee;
+  background-color: #fff;
   box-shadow: inset 0 0 1px #FFFFCC;
   cursor: pointer;
   position: relative;
